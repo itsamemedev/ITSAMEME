@@ -1,10 +1,8 @@
 ITSAMEME Core integration/staging tree
 =====================================
 
-https://bitcoincore.org
+https://its-a-meme.com/
 
-For an immediately usable, binary version of the ITSAMEME Core software, see
-https://bitcoincore.org/en/download/.
 
 What is ITSAMEME Core?
 ---------------------
