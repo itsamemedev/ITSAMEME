@@ -1,0 +1,33 @@
+# /etc/conf.d/itsamemed: config file for /etc/init.d/itsamemed
+
+# Config file location
+#ITSAMEMED_CONFIGFILE="/etc/itsameme/itsameme.conf"
+
+# What directory to write pidfile to?  (created and owned by $ITSAMEMED_USER)
+#ITSAMEMED_PIDDIR="/var/run/itsamemed"
+
+# What filename to give the pidfile
+#ITSAMEMED_PIDFILE="${ITSAMEMED_PIDDIR}/itsamemed.pid"
+
+# Where to write itsamemed data (be mindful that the blockchain is large)
+#ITSAMEMED_DATADIR="/var/lib/itsamemed"
+
+# User and group to own itsamemed process
+#ITSAMEMED_USER="itsameme"
+#ITSAMEMED_GROUP="itsameme"
+
+# Path to itsamemed executable
+#ITSAMEMED_BIN="/usr/bin/itsamemed"
+
+# Nice value to run itsamemed under
+#ITSAMEMED_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#ITSAMEMED_OPTS=""
+
+# The timeout in seconds OpenRC will wait for itsamemed to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+ITSAMEMED_SIGTERM_TIMEOUT=600

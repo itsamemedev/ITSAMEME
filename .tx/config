@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[o:itsameme:p:itsameme:r:qt-translation-025x]
+file_filter = src/qt/locale/itsameme_<lang>.xlf
+source_file = src/qt/locale/itsameme_en.xlf
+source_lang = en

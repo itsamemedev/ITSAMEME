@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ITSAMEME Core Security Policy
+    url: https://github.com/itsamemedev/ITSAMEME/blob/master/SECURITY.md
+    about: View security policy
+  - name: ITSAMEME Core Developers
+    url: https://bitcoincore.org
+    about: ITSAMEME Core homepage
